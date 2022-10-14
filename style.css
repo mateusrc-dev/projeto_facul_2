@@ -14,7 +14,7 @@
   width: 50px;
   height: 50px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 header {
@@ -43,7 +43,7 @@ nav {
   gap: 20px;
   border: 1px solid black;
   background-color: aqua;
-  width: 500px;
+  width: 550px;
   padding: 5px;
   border-radius: 10px;
 }
@@ -54,6 +54,11 @@ nav a {
   border-radius: 10px;
   text-decoration: none;
   background-color: rgb(175, 254, 254);
+  transition: background-color 0.5s;
+}
+
+nav a:hover {
+  background-color: rgb(66, 229, 229);
 }
 
 table {
@@ -89,6 +94,25 @@ tbody tr td {
 
 figure {
   display: flex;
-  
+  flex-direction: column;
   margin: auto;
+  padding: 3px;
+  width: 516px;
+  background-color: red;
+  border: 1px solid rgb(255, 77, 77);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  color: white;
+}
+
+#imagem {
+  border-radius: 10px 10px 0 0;
 }
