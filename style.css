@@ -1,3 +1,11 @@
+/*CSS formata a informação que é entregue ao HTML - lida com a estética de uma página web*/
+/*CSS - cascading style sheets*/
+/*s3schools - tem informações sobre CSS*/
+/*vantangens: separação de conteúdo e apresentação; consistência de abrangência; reformatação mais fácil; acessibilidade*/
+/*no CSS temos o seletor, declaração de propriedade e valor*/
+/*podemos usar classes e identificadores pra selecionar um elemento*/
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -115,4 +123,6 @@ figcaption {
 
 #imagem {
   border-radius: 10px 10px 0 0;
+  border: 1px solid rgb(255, 77, 77);
+  border-bottom: none;
 }
